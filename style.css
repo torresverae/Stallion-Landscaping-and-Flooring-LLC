@@ -1,0 +1,125 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ysabeau SC', 'sans-serif';
+}
+
+.navbar {
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+.logo:hover{
+    color: #5fae57;
+}
+.logo i {
+    margin-right: 5px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu li {
+    margin-left: 15px;
+}
+
+.navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+    color: #5fae57;
+}
+.dropdown-toggle {
+    position: relative;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    padding: 10px 0;
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.show{
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-toggle:hover .dropdown-menu {
+    display: block;
+}
+
+.active {
+    color: #5fae57;
+}
+
+/* Reviews Section */
+.reviews-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .review-box {
+    display: inline-block;
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    text-align: left;
+  }
+  
+  .stars {
+    color: gold; 
+  }
+  
+  .review-content {
+    margin-top: 10px;
+  }

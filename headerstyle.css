@@ -1,0 +1,75 @@
+@keyframes fade-in {
+    0% { opacity: 0; transform: translatex(0px); }
+    100% { opacity: 1; transform: translateY(100px); }
+}
+
+.main-header {
+    background-image: url('/Images/flooringthree.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: abso;
+    top: 50%;
+    transform: translateY(100px);
+    z-index: 10; 
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    padding: 120px 50px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3.5%;
+    animation: fade-in 1.5s ease-in-out;
+   
+    
+}
+.companylogo {
+    margin-bottom: 20px;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.companylogo:hover {
+    transform: scale(1.05); 
+}
+
+.main-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.7); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    color: white;
+}
+
+.company-description {
+    color: white;
+    font-size: 23px;
+    font-weight: 100%;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, 0.7); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#landservices {
+    color: #5fae57;
+    padding: 50%;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    left: -370%;
+    width: 550%;
+}
